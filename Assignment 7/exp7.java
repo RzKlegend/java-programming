@@ -1,5 +1,4 @@
 
-import java.text.ParseException;
 
 //inheritance = where one class acquires the properties and methods of another class
 /* 

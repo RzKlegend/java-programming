@@ -24,3 +24,8 @@ public class abstractkeyword {
         s.message();
     }
 }
+
+
+/* ABSTRACT METHOD
+    
+*/
