@@ -1,3 +1,6 @@
+
+import java.text.ParseException;
+
 //inheritance = where one class acquires the properties and methods of another class
 /* 
 class Animal{
@@ -86,9 +89,11 @@ public class exp7{
 }
 */
 
-//interface = an interface is a blueprint of a class that contains abstract methods
+//we use interface because we cant implement multiple inheritance
+//interface = an interface is a blueprint of a class that contains abstract methods 
 // key points - use the interface keyword, supports multiple inheritance, classes implement interfaces using the implemeents keyword
-
+// this keyword points to the current object
+/* 
 interface Animal{
     void sound(); //abstract method
 }
@@ -98,4 +103,5 @@ class Dog implements Animal{
         System.out.println("Dog barks");
     }
 }
+*/
 
