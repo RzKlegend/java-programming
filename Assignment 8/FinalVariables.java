@@ -19,3 +19,24 @@ public class FinalVariables{
         c.display(); //calls the final method in parent class 
     }
 }
+
+
+
+/*
+//a final class cannot be extended by any subclass
+//useful for creating immutable classes
+
+final class FinalClassExample{
+    void display(){
+        System.out.println("this is a final class");
+    }
+}
+//class subclass extends 
+public class Finalclass{
+    public static void main(String[] args) {
+        FinalClassExample obj = new FinalClassExample();
+        obj.display();
+    }
+}
+
+ */
